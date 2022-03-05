@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 
 app.get('/hello', (req, res) => {
-  res.send('jy111yiiii...ut..88.');
+  res.send('hellllooooooo');
 });
 
 app.get('/', (req, res) => {
-  res.send('hehnhnhlo');
+  res.send('Welcome');
 });
 
 app.listen(process.env.PORT || 3001, () => {

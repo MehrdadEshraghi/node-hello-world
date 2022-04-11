@@ -6,7 +6,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Wepkcom');
+  res.send('Wepkhjcom');
 });
 
 app.listen(process.env.PORT || 3001, () => {

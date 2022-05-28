@@ -6,7 +6,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('W[okkkp[op[jcom');
+  res.send('sina test');
 });
 
 app.listen(process.env.PORT || 3001, () => {
